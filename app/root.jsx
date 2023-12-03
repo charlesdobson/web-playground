@@ -275,6 +275,16 @@ export default function App() {
           </div>
 
           <div>
+            <h3>Embed</h3>
+            <embed
+              src="https://example.com"
+              type="video/mp4"
+              width="100"
+              height="100"
+            />
+          </div>
+
+          <div>
             <h3>Field Set</h3>
             <fieldset>
               <legend>Choose your adventure</legend>
@@ -287,6 +297,50 @@ export default function App() {
               <label htmlFor="adventure-2">Adventure 2</label>
               <br />
             </fieldset>
+          </div>
+
+          <div>
+            <h3>Figure with caption</h3>
+            <figure>
+              <img src="https://placekitten.com/100/100" alt="Kitten" />
+              <figcaption>Figure caption</figcaption>
+            </figure>
+          </div>
+
+          <div>
+            <h3>Footer</h3>
+            <footer>
+              <p>© 2023 Charlie</p>
+            </footer>
+          </div>
+
+          <div>
+            <h3>Form</h3>
+            <form action="" method="get" class="form-example">
+              <div class="form-example">
+                <label for="name">Enter your name: </label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-example">
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <button>submit</button>
+            </form>
+          </div>
+
+          <div>
+            <h3>Section Heading</h3>
+            <h4>h3</h4>
+            <h5>h5</h5>
+            <h6>h6</h6>
+          </div>
+
+          <div>
+            <h3>Header</h3>
+            <header>
+              <h4>Header</h4>
+            </header>
           </div>
         </section>
 
