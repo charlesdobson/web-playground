@@ -4,4 +4,4 @@ This is a playground to showcase a variety of Web features in HTML, CSS, and Jav
 
 ## Development
 
-`npm run dev`
+`yarn dev`
